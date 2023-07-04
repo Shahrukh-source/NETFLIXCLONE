@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import "./style.scss"
+import "./Style.scss"
 export default function SwitchTabs({ data, onTabChange }) {
     const [selectedTab, setSelectedTab] = useState(0)
     const [left, setLeft] = useState(0)
